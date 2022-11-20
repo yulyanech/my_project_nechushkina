@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+  @@include('blocks/head.html')
+
+<body class="body">
+
+  @@include('blocks/page-header.html')
+
+  <main class="main">
+    <div class="events">
+         <div class="events_listing listing">
+            <h2 class="listing_section-title section-title">
+                Мероприятия
+            </h2>
+            <div class="listing_events-cards">
+                <article class="events-card">
+                    <a href="#" class="events-card_link">
+                        <picture class="events-card_picture">
+                            <img  class="events-card_img"
+                            src="images/Nirvana.jpg" 
+                            alt='Nirvana'/>
+                        </picture>
+                        <h4 class="events-card_title">
+                            Собираемся и слушаем альбом Nirvana. Nirvana
+                        </h4>
+                        <p class="events-card_text"> Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
+                        <time class="events-card_time" datetime="2022-12-07T18:00">
+                            07.12.2022 | начало 18.00
+                        </time>
+                    </a>
+                </article>
+
+                <article class="events-card">
+                  <a href="#" class="events-card_link">
+                      <picture class="events-card_picture">
+                          <img  class="events-card_img"
+                          src="images/HowStuffWorks.jpg" 
+                          alt='podcastpic'/>
+                      </picture>
+                      <h4 class="events-card_title">
+                        Есть тема, нужно обсудить с HowStuffWorks
+                      </h4>
+                      <p class="events-card_text"> Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.</p>
+                      <time class="events-card_time" datetime="2022-12-14T18:30">
+                          14.12.2022 | начало 18.30
+                      </time>
+                  </a>
+              </article>
+
+              <article class="events-card">
+                <a href="#" class="events-card_link">
+                    <picture class="events-card_picture">
+                        <img  class="events-card_img"
+                        src="images/Sade.jpg" 
+                        alt='sade'/>
+                    </picture>
+                    <h4 class="events-card_title">
+                      Вечер | The Best of Sade
+                    </h4>
+                    <p class="events-card_text">Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.</p>
+                    <time class="events-card_time" datetime="2022-12-16T20:00">
+                        16.12.2022 | начало 20.00
+                    </time>
+                </a>
+            </article>
+            </div>
+         </div>
+     </div>
+  </main>
+
+  @@include('blocks/page-footer.html')
+  
+</body>
+</html>
