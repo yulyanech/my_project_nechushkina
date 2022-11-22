@@ -1,5 +1,4 @@
 import gulp from "gulp";
-
 import del from "del";
 import include from "gulp-file-include";
 import formatHtml from "gulp-format-html";
@@ -18,7 +17,6 @@ import imagemin_optipng from "imagemin-optipng";
 import svgmin from "gulp-svgmin";
 import svgstore from "gulp-svgstore";
 import server from "browser-sync";
-
 const resources = {
   html: "src/html/**/*.html",
   jsDev: "src/scripts/dev/**/*.js",
